@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.main-block {
+  margin: 0 15em;
+}
+.whole-page {
+  margin-left: 100px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.image-container img {
+  margin-top: 3em;
+  width: 350px;
+  height: auto;
+}
+
+.card {
+  width: 160px;
+  flex: 1;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: rgba(250, 250, 250, 0.87);
+  border: 1px solid rgba(153, 153, 153, 0.497);
+}
+
+
+/* CREATE DETAILS STYLES */
+
+.form-container {
+  display: flex;
+  margin-top: 4em;
+}
+
+.create-card{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.562);
+}
+
+.mini-container {
+  margin-bottom: 20px;
+}
+
+
+input[type="text"],
+input[type="radio"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+label h3 {
+  margin: 0;
+  margin-bottom: 0.7em;
+}
+
+.mini-container ul {
+  list-style-type: none;
+
+}
+.mini-container ul li {
+  text-align: left;
+}
+
+/* Media query for screens less than 900px */
+@media (max-width: 900px) {
+  .main-heading, .create-heading {
+      margin-left: 5%; /* Adjust the left margin */
+  }
+  .main-block {
+    margin: 0 5em; 
+  }
+}
